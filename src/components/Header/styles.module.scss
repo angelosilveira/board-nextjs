@@ -1,0 +1,37 @@
+.header {
+  height: 6rem;
+  background-color: #141a29;
+}
+
+.header__content {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 6rem;
+
+  img {
+    cursor: pointer;
+  }
+
+  nav {
+    margin-left: 5rem;
+    height: 5rem;
+
+    a {
+      display: inline-block;
+      position: relative;
+      padding: 0 0.5rem;
+      color: #fff;
+      line-height: 5rem;
+      height: 5rem;
+      & + a {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  button {
+    margin-left: auto;
+  }
+}
